@@ -16,3 +16,21 @@ AirWrite Launcher uses a webcam + hand tracking to let you write letters in the 
 ---
 
 ## 📂 Project Structure
+
+AirWrite/
+├─ Model/
+│  ├─ keras_model.h5
+│  └─ labels.txt
+├─ test.py
+├─datacollect.py
+├─ requirements.txt
+└─ README.md
+
+⚙️ Requirements
+
+Python 3.8+
+mediapipe
+opencv-python
+cvzone
+tensorflow
+numpy
